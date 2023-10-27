@@ -55,7 +55,7 @@ header {
     display: flex;
     align-items: center;
     padding: 5px;
-    
+    font-size: 30px;
 }
 
 nav ul {
@@ -87,6 +87,7 @@ footer a {
     color: var(--color3);
     text-decoration: none;
 }
+
 #videoPromo{
     text-align: center;
     align-items: center;
@@ -173,4 +174,42 @@ align-items: center;
     flex-direction: column-reverse;
     align-items: center;
     margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .header { 
+        width: 50%;
+    }
+
+    #titulo {
+        width: 75%;
+        font-size: 24px;
+    }
+
+    #clases img, #batallas img {
+        width: 400px; 
+        height: 800px;
+    }
+    
+    #clases img, #batallas img {
+        width: 200px; 
+        height: 400px;
+    }
+    
+    #videoPromo video {
+        width: 100%; 
+    }
+
+    #banner{
+        width: 100%;
+        
+    }
+
+    body, p, h2 {
+        font-size: 16px; /* Tamaño de fuente más pequeño para el texto del cuerpo y subtítulos en dispositivos móviles */
+    }
+
+
 }
