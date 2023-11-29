@@ -52,12 +52,12 @@
 
 </header>
 
-  <main>
-    <div class="asd-container">
+  <main class="asd-container">
+    <div>
 
       <h1 class="tituloDos">Iniciar Sesión</h1>
 
-      <form action="procesar_login.php" method="POST">
+      <form action="procesar_login.php" method="POST" class="log-reg">
           <label for="usuario">Nombre de Usuario:</label>
           <input type="text" id="usuario" name="usuario" required>
 
@@ -65,9 +65,11 @@
           <input type="password" id="contrasena" name="contrasena" required>
 
           <button type="submit">Iniciar Sesión</button>
+
+          <p>¿No tienes una cuenta? <a href="registrarse.html">Regístrate</a></p>
+
       </form>
 
-      <p>¿No tienes una cuenta? <a href="registrarse.html">Regístrate</a></p>
   </div>
   </main>
 
